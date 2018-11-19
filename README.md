@@ -1,2 +1,2 @@
-# lystinfographic
+# Lyst Infographic
 Interactive infographic
