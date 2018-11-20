@@ -1,8 +1,8 @@
-/* ==============  Interactive Infographic created by aidanminton.co.uk - 2016    ============== */
+/* ==============  Interactive Infographic created by aidanminton.co.uk - 2018    ============== */
 
 @font-face {
   font-family: 'Brown-Light';
-  src: url('/lyst/fonts/Brown-Light.eot') format('embedded-opentype');
+  src: url('/fonts/Brown-Light.eot') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: 'Brown-Regular';
-  src: url('/lyst/fonts/Brown-Regular.eot') format('embedded-opentype');
+  src: url('/fonts/Brown-Regular.eot') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: 'Brown-Bold';
-  src: url('/lyst/fonts/Brown-Bold.eot') format('embedded-opentype');
+  src: url('/fonts/Brown-Bold.eot') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -95,8 +95,6 @@ body {
   font-weight: lighter;
   letter-spacing: 3px;
   text-transform: uppercase;
-  ft: ;
-  */: ;
   float: left;
   text-align: center;
   margin-left: 10px;
@@ -119,17 +117,18 @@ body {
 
 
 .letter-container {
-  height: 410px;
-  color: #fff;
-  font-size: 160px;
-  border: 6px #fff solid;
-  overflow: hidden !important;
-  filter: gray;
-  -webkit-filter: grayscale(1);
-  -webkit-transition: 4.5s ease-out;
-  cursor: pointer;
-  background-size: cover !important;
-  background-position: center center !important;
+    height: 310px;
+    color: #fff;
+    font-size: 160px;
+    border: 6px #fff solid;
+    overflow: hidden !important;
+    filter: url(filters.svg#grayscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -webkit-transition: 4.5s ease-out;
+    cursor: pointer;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
 }
 
 
@@ -163,7 +162,7 @@ body {
 
 
 .head-image {
-  background: url('/lyst/img/header-img.png');
+  background: url('/img/header-img.png');
   background-color: #000;
   background-position: center top;
   height: 280px;
@@ -298,7 +297,7 @@ footer p {
 
 @font-face {
   font-family: 'Brown-Regular';
-  src: url('/lyst/fonts/Brown-Regular.eot') format('embedded-opentype');
+  src: url('/fonts/Brown-Regular.eot') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -306,7 +305,7 @@ footer p {
 
 @font-face {
   font-family: 'Brown-Bold';
-  src: url('/lyst/fonts/Brown-Bold.eot') format('embedded-opentype');
+  src: url('/fonts/Brown-Bold.eot') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -423,7 +422,7 @@ text-decoration: none;
     font-family: 'Brown-Bold', sans-serif;;
 }
 .head-image {
-    background: url('/lyst/img/header-img.png');
+    background: url('/img/header-img.png');
     background-color: #000;
     background-position: center top;
     height: 280px;
@@ -535,7 +534,7 @@ footer p {
 
 @font-face {
   font-family: 'Brown-Light';
-  src: url('/lyst/fonts/Brown-Light.eot') format('embedded-opentype');
+  src: url('/fonts/Brown-Light.eot') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
