@@ -182,28 +182,28 @@ body {
 
 
 .down{
-	    position: relative;
-    left: 0;
-    right: 0;
-    top: -139px;
-    transition: 0.5;
+
 }
 
-.down:hover{
-    top: -159px;
-}
 
 .down::before{
-content: "";
+	content: "";
     width: 87px;
     height: 87px;
     background-image: url(/img/down.png);
     display: block;
     background-repeat: no-repeat;
     margin: 0 auto;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: -139px;
+    transition: 0.5;
 }
 
-
+.down:before:hover{
+    top: -159px;
+}
 
 .head-image {
   background: url('/img/header-img.png');
