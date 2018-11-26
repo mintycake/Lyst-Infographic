@@ -180,12 +180,30 @@ body {
   font-family: 'Brown-Bold', sans-serif;
 }
 
-.down::before{
-	content: "";
-	width:80px;
-	height: 80px;
-	background-image: url('/img/down.png');
+
+.down{
+	    position: relative;
+    left: 0;
+    right: 0;
+    top: -139px;
+    transition: 0.5;
 }
+
+.down:hover{
+    top: -159px;
+}
+
+.down::before{
+content: "";
+    width: 87px;
+    height: 87px;
+    background-image: url(/img/down.png);
+    display: block;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+
 
 .head-image {
   background: url('/img/header-img.png');
