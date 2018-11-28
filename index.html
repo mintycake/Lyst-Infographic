@@ -757,5 +757,19 @@ While the winter season may be the hardest time to catch some z’s, what with a
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+	 jQuery(function( $ ){
+    $(window).scroll(function() {
+        var yPos = ( $(window).scrollTop() );
+
+        if(yPos < 600) { // Show element after this amount of scrolled down pixels 
+
+			$(".bubbles").fadeIn();
+		} else if(yPos > 601) {
+			$(".bubbles").fadeOut();
+		}
+	});
+});
+</script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </html>
