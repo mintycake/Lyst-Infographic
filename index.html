@@ -778,15 +778,20 @@ Andrea still maintains her London work with a team of specialised spinal and foo
 		} else if(yPos > 601) {
 			$(".bubbles").fadeOut();
 		}
-	
+	});
 
-	        if(yPos < 600) { // Show element after this amount of scrolled down pixels 
+
+    $(window).scroll(function() {
+        var yPos = ( $(window).scrollTop() );
+
+        if(yPos < 600) { // Show element after this amount of scrolled down pixels 
 
 			$(".bubbles-2").fadeIn();
 		} else if(yPos > 601) {
 			$(".bubbles-2").fadeOut();
 		}
 	});
+
 });
 </script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
