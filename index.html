@@ -823,14 +823,10 @@ $(function() {
   $("p").sparkleh({
     count: 20,
     color: "#00ff00",
-    speed: 0.05
+    speed: 1
   });
   
   
-  // an array can be passed, too for colours
-  // for an image, the image needs to be fully loaded to set
-  // the canvas to it's height/width.
-  // speed allows us to control... the ... velocity 
   $("#image").imagesLoaded( function() {
     $(".img").sparkleh({
       count: 25,
@@ -1088,7 +1084,7 @@ Sparkle.prototype = {
  
  
 $.fn.imagesLoaded = function(callback){
-  var elems = this.filter('.letter-container'),
+  var elems = this.filter('body'),
       len   = elems.length,
       blank = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";
       
