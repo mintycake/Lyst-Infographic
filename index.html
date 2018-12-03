@@ -798,13 +798,18 @@ Andrea still maintains her London work with a team of specialised spinal and foo
 
 
 $(function() {
-
+ 
+	  // default is varying levels of transparent white sparkles
+	  $("body").sparkleh({
+	  	    count: 30,
+	  });
   
-  // default is varying levels of transparent white sparkles
-  $("body").sparkleh();
-  
-
 });
+
+
+
+
+
 
 
 $.fn.sparkleh = function( options ) {
