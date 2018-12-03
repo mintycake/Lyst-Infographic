@@ -801,47 +801,10 @@ $(function() {
 
   
   // default is varying levels of transparent white sparkles
-  $(".sparkley:first").sparkleh();
+  $("body").sparkleh();
   
-  // rainbow as a color generates random rainbow colros
-  // count determines number of sparkles
-  // overlap allows sparkles to migrate... watch out for other dom elements though.
-  $(".sparkley:last").sparkleh({
-    color: "rainbow",
-    count: 100,
-    overlap: 10
-  });
-  
-  // here we create fuscia sparkles
-  $("h1").sparkleh({
-    count: 80,
-    color: ["#ff0080","#ff0080","#0000FF"]
-  });
-  
-  
-  
-  $("p").sparkleh({
-    count: 20,
-    color: "#00ff00",
-    speed: 1
-  });
-  
-  
-  $("#image").imagesLoaded( function() {
-    $(".img").sparkleh({
-      count: 25,
-      color: ["#f3edc4","#253943","#659e3f"],
-    speed: 0.4
-    });
-  });
-
 
 });
-
-
-
-
-
 
 
 $.fn.sparkleh = function( options ) {
@@ -856,7 +819,7 @@ $.fn.sparkleh = function( options ) {
       color: "#FFFFFF",
       count: 30,
       overlap: 0,
-      speed: 1
+      speed: 10
     }, options );
     
     var sparkle = new Sparkle( $this, settings );
@@ -1084,7 +1047,7 @@ Sparkle.prototype = {
  
  
 $.fn.imagesLoaded = function(callback){
-  var elems = this.filter('body'),
+  var elems = this.filter('.letter-container'),
       len   = elems.length,
       blank = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";
       
