@@ -121,7 +121,6 @@ body {
     height: 310px;
     color: #fff;
     font-size: 160px;
-    border: 6px #fff solid;
     overflow: hidden !important;
       filter: none;
   -webkit-filter: grayscale(0);
