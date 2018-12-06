@@ -174,7 +174,7 @@ top: -101px;
 }
 
 #big-outline a{
- color:#021135;
+ color:#021135 !important;
 }
 
 .down:before{
