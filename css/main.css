@@ -306,16 +306,15 @@ footer p {
 
 
 .letter-expand .btn-primary {
-  color: #fff;
+  color: #021135;
   background-color: #000;
-  border-color: #222;
+  margin-top:5px;
 }
 
 
 .letter-expand .btn-primary:hover {
-  color: #fff;
-  background-color: #222;
-  border-color: #000;
+  color: #021135;
+  background-color: #fff;
 }
 
 .bubbles{
