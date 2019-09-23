@@ -185,7 +185,7 @@ top: -101px;
     left: 0;
     right: 0;
     top: -29px;
-    background-image: url(/img/down.png);
+    background-image: url(img/down.png);
     display: block;
     background-repeat: no-repeat;
     margin: 0 auto;    position: relative;
@@ -193,7 +193,7 @@ top: -101px;
 
 
 .head-image {
-  background: url('/img/header-img.png');
+  background: url('img/header-img.png');
   background-position: center top;
   height: 600px;
   background-repeat: no-repeat;
@@ -283,7 +283,7 @@ footer {
   height: auto;
   background-repeat: no-repeat;
   padding: 20px 0px;
-  	background-image:url('/img/footer-bubbles.png');
+  	background-image:url('img/footer-bubbles.png');
     background-size: contain;
     background-position: bottom;
     padding-bottom: 80px;
@@ -318,7 +318,7 @@ footer p {
 }
 
 .bubbles{
-background-image: url(/img/bubbles.png);
+background-image: url(img/bubbles.png);
     position: fixed;
     top: 0px;
     background-size: cover;
@@ -331,7 +331,7 @@ background-image: url(/img/bubbles.png);
 }
 
 .bubbles-2{
-background-image: url(/img/bubbles-2.png);
+background-image: url(img/bubbles-2.png);
     position: absolute;
     top: 0px;
     background-size: cover;
